@@ -1,0 +1,11 @@
+git config --global user.name "Nombre_usuario"
+git config --global user.email "direccion@dominio.com"
+
+(inicializar) -> git init
+(ver estado y archivos) -> git status
+(agregar a staging area) -> git add nombre_archivo.extension
+			 -> git add -A, git add .
+(enviar al repositorio local) -> git commit (tecla i para insertar un comentario, ESC para salir del comentario,
+					     :wq para grabar y salir)
+			      -> git commit -m "Descripción del cambio"
+(Historial de commits) -> git log [--oneline (forma abreviada) | --graph (detalle de ramas)]
